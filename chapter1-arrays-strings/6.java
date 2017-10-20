@@ -1,3 +1,4 @@
+//implement a method to perform a basic string compression using the counts of repeated characters. for example, the string aabcccccaaa would become a2b1c5a3. if the "compressed" string would not become smaller than the original string, your method should return the original string. you can assume the string has only uppercase and lowercase letters.
 package com.lesson;
 
 
