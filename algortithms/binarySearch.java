@@ -18,10 +18,10 @@ public class Main {
 
         System.out.println("enter number to find");
         int key = scanner.nextInt();
-        System.out.println(rank(key,a));
+        System.out.println(binarySearch(key,a));
     }
 
-    public static int rank(int key, int []a){
+    public static int binarySearch(int key, int []a){
         int lo = 0;
         int hi = a.length-1;
         while(lo <= hi){
@@ -37,3 +37,37 @@ public class Main {
         return -1;
     }
 }
+
+// char [] shift = s.toCharArray();
+//         while(left < right){
+//             right--;
+//             char temp = shift[left];
+//             shift[left] = shift[right];
+//             shift[right] = temp;
+//             left++;
+//             }
+//         }
+//         return s;
+
+
+
+//         static long count(int[] numbers, int k) {
+//         int len = numbers.length;
+//         int numbProducts = 0;
+        
+//         for(int i =0; i<len; ++i){
+//             for(int j =i; j < len; ++j){
+//                 int product =1;
+                
+//                 for(int p =i; p<=j;++p){
+//                     product *= numbers[p];
+//                 }
+//                 if(product < k){
+//                     ++numbProducts;
+//                 } else{
+//                     break;
+//                 }
+//             }
+//         }
+//         return numbProducts;
+//     }
