@@ -1,3 +1,4 @@
+//time complexity in all cases is O(nlogn) and space is O(n)
 package com.lesson;
 
 import java.util.Scanner;
